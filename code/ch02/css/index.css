@@ -1,0 +1,87 @@
+    /* 1. 顶部 */
+    .topbar{
+        height: 28px;
+        background-color:#101010;
+    }
+    .topbar .container{
+        height: 28px;
+        background-color: #101010;
+    }
+    .topbar .container p {
+        height: 28px;
+        line-height: 28px;
+        color: #fff;
+    }
+    .topbar .container p:first-child{
+        text-indent: 10px;
+
+    }
+    .topbar .container p:first-child a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .topbar .container p:nth-child(2){
+        margin-right: 10px;
+    }
+    .topbar .container p:nth-child(2) a:not(.login){
+        color:#ff6700;
+    }
+    .topbar .container p:nth-child(2) .login{
+        color: #fff;
+    }
+
+    /* 2. 导航 */
+    .nav{
+        height: 80px;
+        background-color: #fff;
+    }
+    .nav .search-shopcart-order{
+        margin-top: 5px;
+        height: 35px;
+        background-color:#fff;
+    }
+    .nav .category-meau{
+        margin-top: 15px;
+        height: 30px;
+        background-color:#fff;
+    }
+    .nav .search-shopcart-order .search-input{
+            width: 440px;
+            height: 35px;
+            background-color:#ff6700;
+            margin-right: 38px;
+            background-image: url('../images/bgicon.png');
+    }
+    .nav .search-shopcart-order .search-input .search{
+        width: 403px;
+        height: 31px;
+        border: 2px solid #ff6700;
+        text-indent: 10px;
+        color:#333;
+        outline: none;
+    }
+    .nav .search-shopcart-order .search-input .search span{
+        display: inline-block;
+        width: 50px;
+        height: 35px;
+        right: 0;
+        top: 0;
+    }
+    .nav .search-shopcart-order .shopcart-order{
+        width: 200px;
+        height: 35px;
+        font-size: 0;
+    }
+    .nav .search-shopcart-order .shopcart-order button{
+        width: 100px;
+        height: 35px;
+        background-color: #ebebeb;
+        border: 1px solid #ccc;
+        font-size: 14px;
+        color: #333;
+    }
+    .nav .search-shopcart-order .shopcart-order button:nth-child(1){
+        background-color: #ff6700;
+        background-image: url('../images/bgicon.png');
+        background-position: -6px -44px;
+    }
