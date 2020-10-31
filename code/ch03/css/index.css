@@ -1,0 +1,152 @@
+    /* 1. 顶部 */
+    .topbar{
+        height: 28px;
+        background-color:#101010;
+    }
+    .topbar .container{
+        height: 28px;
+        background-color: #101010;
+    }
+    .topbar .container p {
+        height: 28px;
+        line-height: 28px;
+        color: #fff;
+    }
+    .topbar .container p:first-child{
+        text-indent: 10px;
+
+    }
+    .topbar .container p:first-child a{
+        color: #fff;
+        text-decoration: none;
+        margin-left: 190px;
+    }
+    .topbar .container p:nth-child(2){
+        margin-right: 10px;
+    }
+    .topbar .container p:nth-child(2) a:not(.login){
+        color:#ff6700;
+    }
+    .topbar .container p:nth-child(2) .login{
+        color: #fff;
+    }
+
+    /* 2. 导航 */
+    /* 搜索购物车订单大容器 */
+    .nav{
+        height: 80px;
+        background-color: #fff;
+    }
+    /* 搜索框 */
+    .nav .search-shopcart-order{
+        margin-top: 5px;
+        height: 35px;
+        background-color:#fff;
+    }
+   
+    .nav .search-shopcart-order .search-input{
+            width: 440px;
+            height: 35px;
+            background-color:#ff6700;
+            margin-right: 38px;
+            background-image: url('../images/bgicon.png');
+    }
+    .nav .search-shopcart-order .search-input .search{
+        width: 403px;
+        height: 31px;
+        border: 2px solid #ff6700;
+        text-indent: 10px;
+        color:#333;
+        outline: none;
+    }
+    .nav .search-shopcart-order .search-input .search span{
+        display: inline-block;
+        width: 50px;
+        height: 35px;
+        right: 0;
+        top: 0;
+    }
+    .nav .search-shopcart-order .shopcart-order{
+        width: 200px;
+        height: 35px;
+        font-size: 0;
+    }
+    .nav .search-shopcart-order .shopcart-order button{
+        width: 100px;
+        height: 35px;
+        background-color: #ebebeb;
+        border: 1px solid #ccc;
+        font-size: 14px;
+        color: #333;
+    }
+    .nav .search-shopcart-order .shopcart-order button:nth-child(1){
+        background-color: #ff6700;
+        background-image: url('../images/bgicon.png');
+        background-position: -6px -44px;
+    }
+    /* 分类导航 */
+    .nav .category-meau{
+        margin-top: 15px;
+        height: 30px;
+    }
+    .nav .category-meau .left-logo{
+        width: 200px;
+        height: 30px;
+        background-color: green;
+        position: relative;
+    }
+    .nav .category-meau .left-logo img{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+    .nav .category-meau ul{
+        width:1000px;
+        height:32px;
+    }
+    .nav .category-meau ul li{
+        float: left;
+        height: 32px;
+        line-height: 32px;
+        width: 80px;
+        color: #333;
+        text-align: center;
+        font-weight: 700;
+    }
+      /* 3.  =================分类导航和banner ================= */
+      .menu{
+          height: 430px;
+          width: 1200px;
+      }
+      .menu .sideMenu{
+          height: 430px;
+          width: 200px;
+          background-color:#f3f3f3;
+      }
+      .menu .sideMenu ul{
+          height: 30px;
+          height: 430px;
+      }
+      .menu .sideMenu ul li{
+          height: 30px;
+          width: 200px;
+          line-height: 30px;
+          text-indent: 20px;
+      }
+      
+      .menu .sideMenu ul li a{
+          color: #353535;
+      }
+      .menu .sideMenu ul li a:hover {
+          color: #ff6700;
+      }
+      .menu .sideMenu ul li:hover{
+        background-color: #fff;
+    }
+    .menu .sideMenu ul li:hover a{
+        color: #ff6700;
+    }
+      .menu .banner {
+            width: 1000px;
+            height: 430px;
+      }
