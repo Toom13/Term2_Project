@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手写星星评分</title>
+    <!-- iconfont.css -->
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <!-- starRate.css -->
+    <link rel="stylesheet" href="./css/starRate.css">
+</head>
+<body>
+
+    <span class="on iconfont icon-one-star"></span>
+    <span class="off iconfont icon-one-star"></span>
+    <span class="half iconfont icon-xing3"></span>
+
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+
+
+
+
+        <!-- 引入jquery.min.js -->
+        <script src="./js/jquery-1.11.3.min.js"></script>
+        <script src="./js/starRate.js"></script>
+        <script>
+            $(function () {
+               var star = createStarRate(3.3);
+               $('.box1').html(star);
+            // $('.box1').createStarRate(3.6);
+            // $('.box2').createStarRate(4.6);
+            // $('.box3').createStarRate(2.7);
+            })
+        </script>
+</body>
+</html>
